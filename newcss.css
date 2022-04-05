@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+/*linear-gradient(to left,#FFF,#F9F9F9,#EBEBEB,#FFF);*/
+html {
+    color: #630;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+:root{
+--background2:rgb(230,230,230);
+--sh1:rgba(119,119,119,0.5);
+--sh2:rgba(255,255,255,0.08);
+
+	}
+*{margin:0;
+padding:0;}
+header{min-height:120px;
+background-color:#f2b800;
+}
+#kn{background-image:url(media/IMG-20210608-WA0003.jpg) ; background-size:100% 100% ; height:100vh; margin-top:0px;}
+#social{
+	height:120px;
+	}
+	
+	#social ul{width:100%; height:100%; list-style-position:inside;
+	text-align:center;}
+	
+	#social ul li{width:50px; height:50px; 
+	border-radius:50%; background-color:#FFFFFF; display:inline-block;
+	margin:12px;
+	border:2px solid  var(--background2);
+	margin-top:25px; padding:12px;
+	box-shadow:5px 5px 5px 2px var(--sh1),
+	-2px -2px 5px 2px var(--sh2),
+	inset 3px 3px 5px 2px var(--sh1),
+	inset -2px -2px 5px 2px var(--sh2);
+	cursor:pointer;
+	}
+
+#social ul li span{font-size:29px; font-weight:100px}
+/*rgb(153,153,153
+rgb(102,102,102)*/
+
+.fa-facebook,.fa-phone{color:rgb(4,4,255);}
+.fa-telegram{color:rgb(0,143,213)}
+.fa-whatsapp{color:rgb(102,255,0);}
+
+nav{background-color:#fbde9e !important; color:#000 !important; direction:rtl !important;}
+nav ul li a{font-size:18px !important; color:#000 !important;direction:rtl;}
+nav ul li a:hover{font-size:20px !important; color:rgb(0,0,255) !important; direction:rtl !important;}
+.carousel-inner{width:100%; height:70vh; box-sizing:border-box; direction:rtl !important;}
+
+.carousel-inner .item{width:100%; height:70vh; box-sizing:border-box; }
+.carousel-inner .item img{width:100%; height:70vh; box-sizing:border-box;}
+
+#myCarousel{margin-top:-20px; background-image:url(media/%D1%82a%D0%B2d%CF%85l%C4%B8%D0%BDal%CE%B9g%2020220228_202837.jpg); background-size:cover}
+
+
+element.style {
+}
+.carousel-indicators .active {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    background-color: #F0F;}
+#logo {
+   
+    height: 300px;
+    transition: ease;
+    transition-duration: 700ms;
+}
+#logo:hover{
+    border-radius: 20%;
+    height: 300px;
+}
+
+#ph {width:100px; height:100;}
+#word {
+    padding-top: 0px;
+    background-color: #FFF;
+    margin-bottom:90px ;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;direction:rtl; text-align-last:center;
+}
+.w{ color:rgb(0,0,0); font-family:"Times New Roman", Times, serif; font-weight:bold; font-size:18px;}
+div h2 , .h { font-family:"Times New Roman", Times, serif;
+    font-size: 3em;
+    background-color:rgb(0,0,0);
+    color:#f2b800;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right:40px ; text-align:center; direction:rtl;
+}
+h2::selection{
+    font-size: 5em;
+    background-color: rgb(172, 90, 36);
+    color: rgb(213, 210, 210);
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right:40px ;
+}
+h2::selection{
+    font-size: 5em;
+    background-color: rgb(172, 90, 36);
+    color: rgb(213, 210, 210);
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right:40px ;
+}
+.cover_doctors{min-height:300px; background-image:url(images/fddg.PNG); background-size:100% 100%; box-sizing:border-box; direction:rtl !important;}
+	
+	
+	.cover_doctors h2{color:#FFFF0F;}
+		.cover_doctors p{color:#000;font-family:"Times New Roman", Times, serif; font-weight:bold; font-size:18px;}
+		.cover_doctors p span{margin-right:20px; font-size:30px}
+		.cover_doctors img{width:200px; height:200px;
+	transition:all 6s;}
+.cover_doctors img:hover{
+	transform:scale(1.4,1.4) ;}
+#linkss {
+    padding-top: 53px;
+    background-color: #666;
+    margin-bottom:95px ;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;}
+	.img {
+    border-radius: 20px;margin:5px;
+    padding: 10px;
+    height: 300px;
+    transition: ease;
+    transition-duration: 700ms;
+}
+.img:hover{
+    border-radius: 60px;
+    padding: 10px;
+    height: 300px;
+}
+.image{
+    padding-top: 53px;
+    padding-bottom: 53px;
+    background-color:;
+    width: 100%; 
+}
+ul li{ font-family:"Times New Roman", Times, serif; font-size:20px; color:#000; list-style-type:none ; text-align:center !important ; direction:rtl}
+ ul li mark { color:rgb(102,51,0);}
+.sections {font-size:20px; color:#000; font-family:"Times New Roman", Times, serif; display:block !important ;text-align:center; font-weight:bold}
+table { color:#000 !important; border:3px solid rgb(0,0,0);font-size:18px; text-align:right; float:right; height:100px ; width:200px; text-align:center  ; margin-right:80px; font-weight:bold }
+.captions { text-align:center;font-size:19px; font-family:'Times New Roman', Times, serif ;color:#000000;}
+.tdd { text-align:center; color:rgb(0,0,0) !important}
+
